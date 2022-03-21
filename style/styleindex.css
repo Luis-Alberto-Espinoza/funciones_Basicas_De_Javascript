@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    /* we create our grid */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    border: solid 1px;
+}
+
+#MostrarDate,
+#divMath,
+#claseArray,
+#claseArray,
+#POO,
+#claseControl,
+#clasePassword,
+#claseString,
+#fromButonText,
+#usoSelect,
+#usoCheckBox,
+#usoArea,
+#navegador,
+#screen,
+#divRadio {
+    display: none;
+    width: 100%;
+}
+
+.menuPrincipal {
+    border: solid 1px coral;
+}
+
+.tabla1 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    /* we create our grid */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    border: solid 1px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+.styleTablaDate {
+    background-color: blanchedalmond;
+    table-layout: initial;
+    width: 100%;
+    display: inline-block
+}
+
+.txtMostrarDate {
+    padding: 5px;
+    width: 550px;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.dateResultado {
+    margin-left: 15%;
+    background-color: antiquewhite;
+    width: 600px;
+    padding: 15px;
+}
+
+.ResultadoDateE {
+    width: 400px;
+    border-color: blue;
+    background-color: aqua;
+    padding: 1em;
+}
+
+.volverAMenu {
+    padding: 10PX;
+    background-color: azure;
+    text-align: center;
+}
+
+.btnVolver {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.resArray2 {
+    padding: 6px;
+    width: 500px;
+}
+
+.mostrarNavigator {
+    margin-left: 15%;
+    background-color: antiquewhite;
+    width: 800px;
+    padding: 15px;
+}

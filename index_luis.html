@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Date</title>
+
+    <link rel="stylesheet" href="style/styleindex.css">
+    <script src="js/metodosprimitivos.js"></script>
+
+</head>
+
+<body>
+    <h2> esto es un texto</h2>
+    <div id="menuInicio">
+
+        <form class="menuPrincipal">
+            <tr>
+                <td><button type="button" onclick="date()">Ver Clase => DATE</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="array()">Ver Clase => ARRAY</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="math()">Ver Clase => MATH</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="claseString()">Ver Clase => STRING</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="formulario()">Ver => FORMULARIO Y EVENTOS </button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="FromButonText()">Ver => Controles FORM, BUTTON y TEXT</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="password()">Ver uso de => PASSWORD</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="select()">Ver uso de => SELECT</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="checkBox()">Ver uso de => Control CHECKBOX</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="controlRadio()">Ver uso de => Control RADIO</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="controlArea()">Ver uso de => Control TextArea</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Eventos onFocus y onBlur</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Eventos onMouseOver y onMouseOut</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Evento onLoad</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => El objeto window</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Propiedad location del objeto windows</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Propiedad history del objeto window</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="abrirVentana()">Ver uso de => Propiedad screen del objeto
+                        window</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="propiedadNavegador()">Ver uso de => Propiedad navigator del objeto
+                        window</button></td>
+            </tr>
+            <tr>
+                <td><button type="button">Ver uso de => Programación Orientada a Objetos</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="poo()">Ver uso de => Programación orientada a objetos en
+                        JavaScript</button></td>
+            </tr>
+        </form>
+    </div>
+
+    <div id="MostrarDate">
+        <table class="styleTablaDate">
+
+            <tr>
+                <td>(Date(); //Retorna la Hora en el momento que la ejecutemos</td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>Instanciamos la clase Date, con el new a la variable fecha;</td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getDate(); //Devuelve la fecha </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getDay(); //devuelve el dia de la semana siendo lunes = 0</td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getMonth(); //devuelve el mes siendo enero = 0 </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getFullYear(); //devuelve el año real </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getHours(); //devuelve el hora </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getMinutes(); //devuelve el minuto </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getSeconds(); //devuelve el segundo </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getMilliseconds(); //devuelve los milisegundos </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.toString(); //devuelve </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.toDateString(); //devuelve </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.toLocaleString(); //devuelve </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.toLocaleDateString(); //devuelve </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.toLocaleTimeString(); //devuelve </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getTimezoneOffset(); //devuelve minutos de la diferencia horaria </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getUTCDate(); //devuelve la fecha de Londres </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>fecha.getUTCHours(); //devuelve la hora en Londres </td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>Date.now(); //devuelve los milisegundo desde la hora cero => 1/1/1970</td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+            <tr>
+                <td>let auxiliar=new Date(1981, 10, 14); //le paso por parametros una fecha cualquiera (sabiendo que enero es el mes 0 en el arreglo)devuelve el dia calendario de ese parametro</td>
+                <td><input type="text" class="txtMostrarDate"></td>
+            </tr>
+        </table>
+        <div id="dateResultado" class="dateResultado">
+
+            <h3>Practica</h3>
+            <p>Confeccionar un programa que muestre en que cuatrimestre del año nos encontramos</p>
+            <p>
+
+                let mes = fecha.getMonth();<br>let resultado;<br> if (mes
+                < 4) {<br> resultado = 'Nos encontramos en el primer cuatrimestre del año';<br> } else if (mes
+                    <br> resultado = 'Nos encontramos en el tercer cuatrimestre del año';<br> } <br>
+                    < 8) { <br>resultado = 'Nos encontramos en el segundo cuatrimestre del año';<br> } else {
+                        <input type="text" name="resultadoCuatrimetre" id="resultadoCuatrimetre" placeholder="resultado" class="ResultadoDateE"></input><br>
+            </p>
+            <div class="btnVolver">
+                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            </div>
+        </div>
+    </div>
+    <div id="divMath">
+        <div id="divEjemploMath">
+        </div>
+        <div id="divEjerMath">
+            <p>
+                <h3>PRACTICA</h3>
+            </p>
+            <div id="divEjerMathEnunciado">
+                <p> 1)Confeccionar un programa que permita cargar un valor comprendido entre 1 y 10. Luego generar un valor aleatorio entre 1 y 10, mostrar un mensaje con el número sorteado e indicar si ganó o perdió:.
+                </p>
+                <button type="button" onclick="ejercicioMath()">Ejecutar </button>
+            </div>
+            <div id="divEjerMathResultado">
+            </div>
+        </div>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+
+    <div id="claseArray" class="claseArray">
+        <div class="teoriaArray">
+            Crear el objeto Ayyay <br> let nombreVector = [];<br>
+            <br> Para cargar un Vector(teniendo en cuenta que arranca en 0)<br> nombreVector[0] = 134;<br> nombreVector[1] = 'un string';<br> nombreVector[2] = true || false;<br> nombreVector[3] = 'j'(un carater;)
+            <br>
+            <br> Otra manera de asignarle valores es <br> nombreVector[] = {134, 'victor', 0.25, true};<br><br> para recorrer un vector se usa generalmente un ciclo 'for' <br>for (let i = 0; i
+            < nombreVector.length; i++{<br> console.log(nombreVector[i]);<br> //Aca adentro podemos: evaluar, comparar, cargar, operar, etc. }
+                <br><br>
+
+        </div>
+        <div id="ArrayEjercicio" class="ArrayEjercicio">
+            <p>
+                <h3>PRACTICA N° 1</h3>
+            </p>
+            <p>Desarrollar un programa que permita ingresar un vector de 8 elementos, e informe:<br> El valor acumulado de todos los elementos del vector.<br> El valor acumulado de los elementos del vector que sean mayores a 36.
+                <br> Cantidad de valores mayores a 50.</p>
+            <br>
+            <input type="radio" name="carga" value="carga">Manual</input>
+            <input type="radio" name="carga" value="carga">automatica</input><br>
+            <button type="button" onclick="ejecutar()">ejecutar</button><br>
+
+            <input type="text" id="respuesta1" class="dateResultado"></input><br>
+            <input type="text" id="respuesta2" class="dateResultado"></input><br>
+            <input type="text" id="respuesta3" class="dateResultado"></input><br>
+            <p>
+                <h3>PRACTICA N° 2</h3>
+            </p>
+            <p>Realizar un programa que pida la carga de dos vectores numéricos.<br> Obtener la suma de los dos vectores, dicho resultado guardarlo en un tercer vector del mismo tamaño.<br> Sumar componente a componente.
+                <br> El tamaño del vector es a elección.</p>
+            <button type="button" onclick="array2()">ejecutar</button><br>
+            <p id="texto4"></p>
+            <input type="text" id="txtrespuesta4" class="resArray2"></input><br>
+            <input type="text" id="respuesta4" class="dateResultado"></input><br>
+            <input type="text" id="txtrespuesta5" class="resArray2"></input><br>
+            <input type="text" id="respuesta5" class="dateResultado"></input><br>
+            <input type="text" id="txtrespuesta6" class="resArray2"></input><br>
+            <input type="text" id="respuesta6" class="dateResultado"></input><br>
+            <input type="text" id="txtrespuesta7" class="resArray2"></input><br>
+            <input type="text" id="respuesta7" class="dateResultado"></input><br>
+
+            <div class="btnVolver">
+                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="POO" class="poo">
+        <p>
+            <h3>EJERCICIOS DE POO en JavaScript</h3>
+        </p>
+        <p>
+            <h3>PRACTICA</h3>
+        </p>
+        <p>Confeccionar una clase llamada suma, que contenga dos atributos (valor1, valor2) y tres métodos: cargarvalor1, cargarvalor2 y retornarresultado. Implementar la clase suma. La definición de un objeto de la clase que deben plantear es:</p>
+        <p>var s=new suma();<br> s.primerValor(10);
+            <br> s.segundoValor(20);
+            <br> document.write('La suma de los dos valores es:'+s.retornarResultado());
+        </p><br><br>
+        <div>
+            <p>
+                <h3>Resultado</h3>
+            </p>
+            <label for="Numero1">Ingrese su primer valor</label><br>
+            <input name="primerValor" type="number" class="poo" id="Numero1"></input><br>
+            <label for="Numero2">Ingrese su segundo valor</label><br>
+            <input name="segundoValor" type="number" class="poo" id="Numero2"></input><br>
+            <input type="button" value="Sumar" onClick="sumarPoo()">
+            <div class="btnVolver">
+                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="navegador">
+
+
+        <form class="Propiedadnavigator">
+            <div id="dRNavigator" class="dRNavigator">
+            </div>
+            <br>
+            <input type="button" value="Propiedad del navegador" onClick="propiedadNavegador()"></input>
+        </form>
+
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <div id="screen">
+        <p>
+            <h3>Propiedad screen del objeto window</h3>
+        </p>
+        <div id="propScreen">
+        </div>
+        <div>
+            <p>
+                <h3>PRACTICA</h3>
+            </p>
+            <p>Confeccionar un programa que al presionar un botón aparezca una ventana que ocupe todo el ancho del monitor y la mitad de su altura.</p>
+            <input type="button" value="abrir ventana" onClick="ejecutarScreen()">
+        </div>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <div id="usoArea">
+
+        <form name="textArea" class="controlArea">
+            <label for="txtNombre">Ingrese su nombre</label><br>
+            <input name="recolectorDatos" type="text" class="ejeArea" id="Nombre"></input><br>
+            <label for="txtMail">Ingrese su Email</label><br>
+            <input name="recolectorDatos" type="email" class="ejeArea" id="Mail"></input><br>
+            <label for="txtArea">Ingrese su Comentario</label><br>
+            <textarea name="recolectorDatos" id="Comentarios" class="ejeArea" cols="30" rows="10"></textarea><br>
+            <button type="button" onclick="mostrarTextArea()">Mostrar Datos</button>
+        </form>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+
+    </div>
+
+
+    <div id="usoCheckBox">
+        <form name="checkbox" class="checkbox">
+            <input type="checkbox" name="deporte" value="Futbol" id="futb">FUTBOL</input><br>
+            <input type="checkbox" name="deporte" value="Basquet" id="basque">BASQUET</input><br>
+            <input type="checkbox" name="deporte" value="VoleyBall" id="VOLEY">VOLEYBALL</input><br>
+            <button type="button" onclick="mostrarDeportes()">Evaluar</button>
+        </form>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <br>
+    <div id="usoSelect">
+        <p>
+            <h3>SELECT</h3>
+            <H3>EJEMPLO</H3>
+        </p>
+        <form>
+            <select id="select1" onChange="cambiarColor()">
+                <option value="ff0000">Rojo</option>
+                <option value="00ff00">Verde</option>
+                <option value="0000ff">Azul</option>
+            </select>
+            <br> Número de índice seleccionado del objeto SELECT:<input type="text" id="text1">
+            <br> Texto seleccionado:<input type="text" id="text2"><br>
+            <br> Valor asociado:<input type="text" id="text3"><br>
+        </form>
+        <div id="practicaSelect">
+            <p>
+                <h3>PRACTICA</h3>
+            </p>
+        </div>
+        <div id="resolucionSelect">
+            <p>1) Confeccionar una página que muestre un objeto SELECT con distintos tipos de pizzas (Jamón y Queso, Muzzarella, Morrones). Al seleccionar una, mostrar en un objeto de tipo TEXT el precio de la misma.</p>
+            <form>
+                <select id="pizzas" onChange="precioPizza()">
+                    <option value="$1.000">Mozarella</option>
+                    <option value="$1.250">Fugaceta</option>
+                    <option value="$1.500">Cuatro Quesos</option>
+                </select>
+                <br> Precio de la Pizza:<input type="text" id="textPizzas"><br>
+            </form>
+        </div>
+        <div id="resolucionSelect2">
+            <p>2) Generar un presupuesto de un equipo de computación a partir de tres objetos de tipo SELECT que nos permiten seleccionar:</p>
+            <form id="presupuesto">
+                <select id="procesador" onChange="procesadorLista()">
+                    <option value="400">Intel I3</option>
+                    <option value="600">Intel I5</option>
+                    <option value="800">Intel I8</option>
+                </select>
+                <br> Precio de Lista<input type="text" class="opcion" id="precioProcesador"><br>
+                <select id="monitor" onChange="MonitoLista()">
+                    <option value="250">Samsung 20'</option>
+                    <option value="350">Samsung 22'</option>
+                    <option value="550">Samsung 26'</option>
+                </select>
+                <br> Precio de Lista<input type="text" class="opcion" id="precioMonitor"><br>
+                <select id="discoDuro" onChange="discoLista()">
+                    <option value="300">500 MB</option>
+                    <option value="440">1 Tb</option>
+                    <option value="500">3 Tb</option>
+                </select>
+                <br> Precio de Lista<input type="text" class="opcion" id="precioDisco"><br>
+                <button type="button" id="resultadoFinal" onclick="PrecioFinalPresupuesto()">TOTAL!!</button>
+                <br> Precio del presupuesto<input type="text" id="presTecnologico"><br>
+            </form>
+        </div>
+
+        <div id="resolucionSelect3">
+            <p>3) Confeccionar una página que permita seleccionar una pizza y la cantidad de unidades. Luego al presionar un botón calcular el importe a pagar. Utilizar un objeto de la clase SELECT para la selección de la pizza, pudiendo ser:</p>
+            <form>
+                <select id="pizzas2" onChange="precioPizza2()">
+                    <option value="1000">Mozarella</option>
+                    <option value="1250">Fugaceta</option>
+                    <option value="1500">Cuatro Quesos</option>
+                </select>
+                <br> Elija su Pizza:<input type="text" class="text" onkeyup="sumaProducto()" id="textPizzas2"><br>
+                <br> Precio parcial: <input type="text" class="text" onkeyup="sumaProducto()" id="textCantPorciones"><br>
+                <br> Cuantas porciones desea?: <input type="text" class="text" id="textPrecioParcial"></input><br>
+                <button type="button" id="agregarPedido" class="but" onclick="SumaSubtotal()">AGREGAR PEDIDO</button>
+                <br> SUBTOTAL: <input type="text" class="text" id="textSubTotal"><br>
+                <button type="button" id="total" class="but" onclick="sumaTotal()">TOTAL</button>
+                <br> IMPORTE TOTAL: <input type="text" class="text" id="textTotal"><br>
+            </form>
+        </div>
+
+        <div id="resolucionSelect4">
+            <p>Confeccionar una página que permita tomar un examen múltiple choice. Se debe mostrar una pregunta y seguidamente un objeto SELECT con las respuestas posibles. Al presionar un botón mostrar la cantidad de respuestas correctas e incorrectas
+                (Disponer 4 preguntas y sus respectivos controles SELECT)</p>
+            <form name="cuestionario">
+                <P>¿Cómo se crea una base de datos con SQL?</P><br>
+                <inPut type="radio" name="PrimerPregunta">CREATE DATABASE</inPut><br>
+                <inPut type="radio" name="PrimerPregunta">UPDATE DATABASE.</inPut><br>
+                <inPut type="radio" name="PrimerPregunta">ALTER DATABASE.</inPut><br>
+                <inPut type="radio" name="PrimerPregunta">Las anteriores respuestas no son correctas</inPut><br><br>
+                <P>En SQL, para modificar la estructura de una tabla <br> de una base de datos se emplea la instrucción
+                </P><br>
+                <inPut type="radio" name="segundaPregunta">ALTER TABLE</inPut><br>
+                <inPut type="radio" name="segundaPregunta">CHANGE TABLE.</inPut><br>
+                <inPut type="radio" name="segundaPregunta">MODIFY TABLE.</inPut><br>
+                <inPut type="radio" name="segundaPregunta">Las anteriores respuestas no son correctas.</inPut><br><br>
+                <P>¿Qué instrucción se emplea para eliminar toda una tabla?</P><br>
+                <inPut type="radio" name="tercerPregunta">DELETE TABLE</inPut><br>
+                <inPut type="radio" name="tercerPregunta">TRUNCATE TABLE.</inPut><br>
+                <inPut type="radio" name="tercerPregunta">ALTER DATABASE.</inPut><br>
+                <inPut type="radio" name="tercerPregunta">DROP TABLE.</inPut><br><br>
+                <P>En SQL, para ordenar los datos devueltos por una sentencia SELECT se emplea la cláusula</P><br>
+                <inPut type="radio" name="cuartapregunta">ORDER BY</inPut><br>
+                <inPut type="radio" name="cuartapregunta">ORDERED BY.</inPut><br>
+                <inPut type="radio" name="cuartapregunta">SORT BY.</inPut><br>
+                <inPut type="radio" name="cuartapregunta">SORTED BY.</inPut><br><br>
+                <P>¿Cuál de las siguientes NO es una función de agregación?</P><br>
+                <inPut type="radio" name="quintaPregunta">COUNT()</inPut><br>
+                <inPut type="radio" name="quintaPregunta">LIMIT()</inPut><br>
+                <inPut type="radio" name="quintaPregunta">MAX()</inPut><br>
+                <inPut type="radio" name="quintaPregunta">MIN()</inPut><br><br>
+                <button type="button" onclick="verificarRespuesta()">VERIFICAR RESPUESTAS</button>
+            </form>
+            <div class="btnVolver">
+                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            </div>
+        </div>
+    </div>
+    <div id="clasePassword">
+        <br> Ingrese una clave:
+        <input type="password" id="clave">
+        <br><br> Confirme su clave:
+        <input type="password" id="claveC">
+        <br><br>
+        <input type="button" value="Confirmar" onClick="verificar()">
+        <br><br><br>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <div id="fromButonText">
+        <p>
+            <h3>PRACTICA</h3>
+        </p>
+        <div id="enunciado1">
+            <p>1) Crear un programa que permita cargar un entero en un text y al presionar un botón nos muestre dicho valor elevado al cubo (emplear la función alert).</p>
+        </div>
+        <input type="text" id="numeroAlCubo" class='mostrarNavigator' placeholder="Numero al cubo">
+        <br>
+        <button type="button" onClick="numeroAlCubo1()">Ejecutar Número al Cubo</button>
+        <input type="text" id="numeroAlCuboRespuesta" class='mostrarNavigator' placeholder="Respesta Numero al cubo">
+        <br><br><br>
+        <div id="enunciado2">
+            <p>2) Cargar dos números en objetos de tipo text y al presionar un botón, mostrar el mayor.</p>
+        </div>
+        <input type="text" id="numero1" class='mostrarNavigator' placeholder="numero1">
+        <br><br>
+        <input type="text" id="numero2" class='mostrarNavigator' placeholder="numero2">
+        <br><br>
+        <button type="button" id="btnMayor" onclick="mostrarMayor()">Calculo del Mayor</button>
+        <br><br>
+        <input type="text" id="numeroresultado" class='mostrarNavigator' placeholder=" mayor">
+        <br><br><br>
+        <div id="enunciado3">
+            <p>3) Cargar un nombre y un apellido en sendos text. Al presionar un botón, concatenarlos y mostrarlos en un tercer text (Tener en cuenta que podemos modificar la propiedad value de un objeto TEXT cuando ocurre un evento).
+            </p>
+        </div>
+        <input type="text" id="nombre" class='mostrarNavigator' placeholder="nombre">
+        <br><br>
+        <input type="text" id="apellido" class='mostrarNavigator' placeholder="apellido">
+        <br><br>
+        <button type="button" id="btnConca" onclick="concatenar()">Concatenador</button>
+        <br><br>
+        <input type="text" id="concaResultado" class='mostrarNavigator' placeholder="concatenado">
+        <br><br><br>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <div id="claseString">
+        <p>
+            <h3>PRACTICA</h3>
+        </p>
+        <div id="Ejer1String">
+            <p>1) Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una
+                mezcla de amba</p>
+            <input type="text" id="entradaString1" class='mostrarNavigator'></input>
+            <button type="button" onclick="claseString1()">EJECUTAR</button>
+            <input type="text" id="resString1" class='mostrarNavigator'></input>
+            <br><br>
+        </div>
+        <div id="Ejer2String">
+            <p>2) Hacer un script que rompa un string en dos mitades y las imprima por pantalla. Las mitades serán iguales, siempre que el string tenga un número de caracteres par. En caso de que el número de caracteres sea impar no se podrá hacer la mitad
+                exacta, pero partiremos el string lo más aproximado a la mitad.</p>
+            <input type="text" id="entradaString2" class='mostrarNavigator'></input>
+            <button type="button" onclick="claseString2()">EJECUTAR</button>
+            <input type="text" id="resString2" class='mostrarNavigator'></input>
+        </div>
+        <div class="btnVolver">
+            <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+        </div>
+    </div>
+    <div id="divRadio">
+        <p>
+            <h3>Control RADIO</h3>
+        </p>
+        <p>Los objetos RADIO tienen sentido cuando disponemos varios elementos.<br> Sólo uno puede estar seleccionado del conjunto.</p>
+        <p>Es importante notar que todos los objetos de tipo RADIO tienen definida<br> la propiedad name con el mismo valor (esto permite especificar que queremos que los radios estén relacionados entre si)</p>
+        <div id="practicaRadio">
+            <p>
+                <h3>PRACTICA</h3>
+            </p>
+            <p>1) Confeccionar una página que muestre dos objetos de la clase RADIO solicitando que seleccione si es mayor de 18 años o no. Al presionar un botón mostrar un alert indicando si puede ingresar al sitio o no.
+            </p>
+            <br>
+            <p>Conteste la encuesta</p>
+            <input type="radio" name="edad" id="menor">Menos de 18 años</input><br>
+            <input type="radio" name="edad" id="mayor">18 años o más</input><br>
+            <button type="button" onclick="confirmaRadio()">CONFIRMAR RESPUESTA</button>
+            <div class="btnVolver">
+                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
