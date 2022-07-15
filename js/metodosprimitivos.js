@@ -3,7 +3,7 @@ function date() {
     document.getElementById('menuInicio').style.display = 'none';
 
     let iterador = [];
-
+let nueva
 
     iterador[0] = (Date()); //Fri Oct 01 2021 19:09:10 GMT-0300 (hora estándar de Argentina)
     let fecha = new Date()
