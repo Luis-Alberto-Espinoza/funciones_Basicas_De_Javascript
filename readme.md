@@ -36,4 +36,4 @@ Este proyecto representa mi primer acercamiento al mundo web. Fue creado con ent
 
 ¡Gracias por explorar este proyecto y espero que disfrutes aprendiendo sobre HTML, CSS y JavaScript junto a mí! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
 
-Para acceder a la página web, puedes hacerlo desde este [enlace](https://luis-alberto-espinoza.github.io/funciones_Basicas_De_Javascript.github.io/).
+Para acceder a la página web, puedes hacerlo desde este [enlace](https://luis-alberto-espinoza.github.io/funciones_Basicas_De_Javascript/).
