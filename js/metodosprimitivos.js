@@ -60,20 +60,20 @@ function math() {
     //Objeto math
     let arrayMath = [];
 
-    arrayMath.push('Math; //muestra todo los metodos(hipotenusa,seno, coseno, tangente) en la clase math');
+    arrayMath.push('Math; muestra todo los metodos en la clase math');
     arrayMath.push(Math); //muestra todo los metodos(hipotenusa,seno, coseno, tangente) en la clase math
-    arrayMath.push('(Math.PI); //devuelve 3.141592653589793');
+    arrayMath.push('(Math.PI); //devuelve el valor de PI');
     arrayMath.push(Math.PI); //devuelve 3.141592653589793
-    arrayMath.push('(Math.abs(-7.8)); //devuelve 7.8');
+    arrayMath.push('(Math.abs(-7.8)); //devuelve el valor absoluto');
     arrayMath.push(Math.abs(-7.8)); //devuelve 7.8
     arrayMath.push('(Math.ceil(2.2)); //devuelve el entero posterior');
     arrayMath.push(Math.ceil(2.2)); //devuelve el entero posterior  8 
     arrayMath.push('(Math.floor(4.2)); //devuelve el entero anterior');
     arrayMath.push(Math.floor(4.2)); //devuelve el entero anterior  7 
-    arrayMath.push('(Math.round(9.492)); //devuelve el redondeo al entero mas cercano');
+    arrayMath.push('(Math.round(9.492)); redondea al entero mas cercano');
     arrayMath.push(Math.round(9.492)); //devuelve el redondeo al entero mas cercano 7 
-    arrayMath.push('(Math.trunc(3.492)); //devuelve la parte entera del numero ');
-    arrayMath.push(Math.trunc(3.492)); //devuelve la parte entera del numero 
+    arrayMath.push('(Math.trunc(3.492)); retorna la parte entera del número');
+    arrayMath.push(Math.trunc(3.492)); //devuelve la parte entera del número 
 
     arrayMath.push('(Math.sqrt(81)); //devuelve la raiz cuadrada');
     arrayMath.push(Math.sqrt(81)); //devuelve la raiz cuadradas que es 9
@@ -93,20 +93,20 @@ function math() {
     arrayMath.push(Math.min(8, 16, 25, 2, 36)); //devuelve el elemneto mas bajo 
 
 
-    arrayMath.push('(Math.random()); // devuelve un numero aleatorio entre 0 y 1 con muchos decimales ');
-    arrayMath.push(Math.random()); // devuelve un numero aleatorio entre 0 y 1 con muchos decimales 
-    arrayMath.push('(Math.random() * 10); // devuelve un numero aleatorio entre 0 y 10');
-    arrayMath.push(Math.random() * 10); // devuelve un numero aleatorio entre 0 y 10
-    //(Objeto math. redondea(Objeto math. un numero aleatorio) * entre 0 y ....)
-    arrayMath.push('(Math.round(Math.random() * 10)); // devuelve un numero aleatorio entre 0 y 9');
-    arrayMath.push(Math.round(Math.random() * 10)); // devuelve un numero aleatorio entre 0 y 9
-    arrayMath.push('(Math.round(Math.random() * 11)); // devuelve un numero aleatorio entre 0 y 10');
-    arrayMath.push(Math.round(Math.random() * 11)); // devuelve un numero aleatorio entre 0 y 10
+    arrayMath.push('(Math.random()); Retorna número aleatorio entre 0 y 1 con muchos decimales');
+    arrayMath.push(Math.random()); // devuelve un número aleatorio entre 0 y 1 con muchos decimales 
+    arrayMath.push('(Math.random() * 10); Retorna número aleatorio entre 0 y 10');
+    arrayMath.push(Math.random() * 10); // devuelve un número aleatorio entre 0 y 10
+    //(Objeto math. redondea(Objeto math. un número aleatorio) * entre 0 y ....)
+    arrayMath.push('(Math.round(Math.random() * 10)); retorna número aleatorio entre 0 y 9');
+    arrayMath.push(Math.round(Math.random() * 10)); // devuelve un número aleatorio entre 0 y 9
+    arrayMath.push('(Math.round(Math.random() * 11)); Retorna número aleatorio entre 0 y 10');
+    arrayMath.push(Math.round(Math.random() * 11)); // devuelve un número aleatorio entre 0 y 10
     //
-    arrayMath.push('("entre " + ((Math.round(Math.random() * 20)) + 5)); // devuelve un numero aleatorio entre 6 y 24');
-    arrayMath.push("entre " + ((Math.round(Math.random() * 20)) + 5)); // devuelve un numero aleatorio entre 6 y 24
-    arrayMath.push('(Math.round(Math.random() * 1000)); // devuelve un numero aleatorio entre 0 y 1000');
-    arrayMath.push(Math.round(Math.random() * 1000)); // devuelve un numero aleatorio entre 0 y 1000
+    arrayMath.push("((Math.round(Math.random() * 20)) + 5)); Retorna número aleatorio entre 6 y 24'");
+    arrayMath.push("entre " + ((Math.round(Math.random() * 20)) + 5)); // devuelve un número aleatorio entre 6 y 24
+    arrayMath.push('(Math.round(Math.random() * 1000)); Retorna número aleatorio entre 0 y 1000');
+    arrayMath.push(Math.round(Math.random() * 1000)); // devuelve un número aleatorio entre 0 y 1000
 
     const paraMostrarEjemplo = document.getElementById('divEjemploMath');
     const paraMostrarEjercicio = document.getElementById('divEjerMathResultado');
