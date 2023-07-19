@@ -622,10 +622,10 @@ function propiedadNavegador() {
     const PropiedadNavigator = document.getElementById('Propiedadnavigator');
     const contenedorPadre = document.getElementById('dRNavigator');
     vectorNavigator[0] = 'Valores de las propiedades del objeto navigator:';
-    vectorNavigator[1] = 'appName :' + navigator.appName;
-    vectorNavigator[2] = 'appVersion :' + navigator.appVersion;
-    vectorNavigator[3] = 'cookieEnabled :' + navigator.cookieEnabled;
-    vectorNavigator[4] = 'Con navigator.plugins obtenemos los plugins y con navigator.plugins.legnth su cantidad ; ' + navigator.plugins.length;
+    vectorNavigator[1] = 'appName : ' + navigator.appName;
+    vectorNavigator[2] = 'appVersion : ' + navigator.appVersion;
+    vectorNavigator[3] = 'cookieEnabled : ' + navigator.cookieEnabled;
+    vectorNavigator[4] = 'con navigator.plugins.legnth obtenemos su cantidad: ' + navigator.plugins.length;
     vectorNavigator[5] = '    Los plugins en uso de su computadora son: ';
 
     let arrayPluguins = [];
