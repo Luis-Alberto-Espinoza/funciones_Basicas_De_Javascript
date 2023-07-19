@@ -1,28 +1,28 @@
-# Nombre del Proyecto
+# Ejercicio introducturio y descriptivo de HTML, CSS y JavaScript Básico
 
-Descripción breve del proyecto y su propósito.
+Descripción
+Este proyecto es parte de una actividad realizada durante mi primer año en el terciario, y tiene como objetivo mostrar diferentes funciones básicas de HTML, CSS y JavaScript. Está diseñado para principiantes y público en general interesado en dar los primeros pasos en el mundo web.
 
-## Estructura de la información
+Funcionalidades Clave
+En este proyecto, se enfoca en enseñar y mostrar cómo utilizar algunas de las funciones básicas de JavaScript, tales como Math(), Date() y String(), entre otras. Cada función se presenta con una explicación detallada, ejemplos prácticos y el código relacionado para que los usuarios puedan comprender su funcionamiento y aplicaciones.
 
-Explica cómo está estructurada la información en el proyecto, mencionando los archivos y carpetas principales y su propósito.
+Ventajas y Beneficios
+Al participar en este proyecto, los usuarios podrán:
 
-- **index.html**: Archivo principal que muestra las diferentes opciones disponibles en el proyecto.
-- **styles.css**: Archivo CSS que contiene los estilos aplicados a las páginas HTML.
-- **script.js**: Archivo JavaScript que contiene las funciones y la lógica del proyecto.
+Aprender conceptos fundamentales de HTML, CSS y JavaScript de forma práctica y sencilla.
+Familiarizarse con el uso de las funciones Math(), Date(), String() y otras herramientas esenciales en el desarrollo web.
+Adquirir conocimientos valiosos para crear contenido interactivo y dinámico en sus propios proyectos.
+Tecnologías Utilizadas
+HTML: para la estructura y contenido de las páginas web.
+CSS: para el diseño y estilo visual de los elementos.
+JavaScript: para implementar la lógica y las funciones interactivas.
+Audiencia Objetivo
+Este proyecto está dirigido a principiantes en el mundo web y a cualquier persona interesada en aprender los fundamentos de HTML, CSS y JavaScript. No se requiere experiencia previa en programación o desarrollo web.
 
-## Funciones explicativas
+Impacto y Resultados Esperados
+Espero que este proyecto brinde a los usuarios una introducción práctica y amigable al desarrollo web y les permita dar sus primeros pasos en la construcción de sitios web interactivos. Al finalizar, los participantes deberían sentirse más cómodos con el uso de las funciones básicas de JavaScript y estar listos para explorar conceptos más avanzados.
 
-Dentro del proyecto, se encuentran varias funciones que son explicadas de manera detallada, acompañadas de ejemplos y código. Estas funciones son:
+Inspiración e Historia
+Este proyecto representa mi primer acercamiento al mundo web. Fue creado con entusiasmo y dedicación, ya que marca el inicio de mi camino en el desarrollo web. Espero que otros puedan encontrar valor en esta experiencia y que les sirva como punto de partida en su propio aprendizaje.
 
-### math()
-
-La función math() se utiliza para realizar cálculos matemáticos. A continuación, se proporciona una explicación detallada junto con ejemplos de uso y código relacionado.
-
-```javascript
-// Ejemplo de uso de la función math()
-// Código relacionado
-
-function math() {
-  // Explicación detallada de la función math()
-}
-```
+¡Gracias por explorar este proyecto y espero que disfrutes aprendiendo sobre HTML, CSS y JavaScript junto a mí! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
