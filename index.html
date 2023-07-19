@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <h2> esto es un texto</h2>
+    <h3> Práctica de Elementos y Funciones Básicas de Html, CSC y Javascript </h3>
     <div id="menuInicio">
 
         <form class="menuPrincipal">
@@ -28,9 +28,9 @@
             <tr>
                 <td><button type="button" onclick="claseString()">Ver Clase => STRING</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><button type="button" onclick="formulario()">Ver => FORMULARIO Y EVENTOS </button></td>
-            </tr>
+            </tr> -->
             <tr>
                 <td><button type="button" onclick="FromButonText()">Ver => Controles FORM, BUTTON y TEXT</button></td>
             </tr>
@@ -49,35 +49,35 @@
             <tr>
                 <td><button type="button" onclick="controlArea()">Ver uso de => Control TextArea</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><button type="button">Ver uso de => Eventos onFocus y onBlur</button></td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
                 <td><button type="button">Ver uso de => Eventos onMouseOver y onMouseOut</button></td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
                 <td><button type="button">Ver uso de => Evento onLoad</button></td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
                 <td><button type="button">Ver uso de => El objeto window</button></td>
-            </tr>
+            </tr> -->
             <tr>
                 <td><button type="button">Ver uso de => Propiedad location del objeto windows</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><button type="button">Ver uso de => Propiedad history del objeto window</button></td>
-            </tr>
-            <tr>
+            </tr> -->
+            <!-- <tr>
                 <td><button type="button" onclick="abrirVentana()">Ver uso de => Propiedad screen del objeto
                         window</button></td>
-            </tr>
+            </tr> -->
             <tr>
                 <td><button type="button" onclick="propiedadNavegador()">Ver uso de => Propiedad navigator del objeto
                         window</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <td><button type="button">Ver uso de => Programación Orientada a Objetos</button></td>
-            </tr>
+            </tr> -->
             <tr>
                 <td><button type="button" onclick="poo()">Ver uso de => Programación orientada a objetos en
                         JavaScript</button></td>
@@ -101,7 +101,7 @@
                 <td><input type="text" class="txtMostrarDate"></td>
             </tr>
             <tr>
-                <td>fecha.getDay(); //devuelve el dia de la semana siendo lunes = 0</td>
+                <td>fecha.getDay(); //devuelve el dia de la semana siendo Domingo = 0</td>
                 <td><input type="text" class="txtMostrarDate"></td>
             </tr>
             <tr>
@@ -165,7 +165,8 @@
                 <td><input type="text" class="txtMostrarDate"></td>
             </tr>
             <tr>
-                <td>let auxiliar=new Date(1981, 10, 14); //le paso por parametros una fecha cualquiera (sabiendo que enero es el mes 0 en el arreglo)devuelve el dia calendario de ese parametro</td>
+                <td>let auxiliar=new Date(1981, 10, 14); //le paso por parametros una fecha cualquiera (sabiendo que
+                    enero es el mes 0 en el arreglo)devuelve el dia calendario de ese parametro</td>
                 <td><input type="text" class="txtMostrarDate"></td>
             </tr>
         </table>
@@ -179,7 +180,8 @@
                 < 4) {<br> resultado = 'Nos encontramos en el primer cuatrimestre del año';<br> } else if (mes
                     <br> resultado = 'Nos encontramos en el tercer cuatrimestre del año';<br> } <br>
                     < 8) { <br>resultado = 'Nos encontramos en el segundo cuatrimestre del año';<br> } else {
-                        <input type="text" name="resultadoCuatrimetre" id="resultadoCuatrimetre" placeholder="resultado" class="ResultadoDateE"></input><br>
+                        <input type="text" name="resultadoCuatrimetre" id="resultadoCuatrimetre" placeholder="resultado"
+                            class="ResultadoDateE"></input><br>
             </p>
             <div class="btnVolver">
                 <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
@@ -191,10 +193,11 @@
         </div>
         <div id="divEjerMath">
             <p>
-                <h3>PRACTICA</h3>
+            <h3>PRACTICA</h3>
             </p>
             <div id="divEjerMathEnunciado">
-                <p> 1)Confeccionar un programa que permita cargar un valor comprendido entre 1 y 10. Luego generar un valor aleatorio entre 1 y 10, mostrar un mensaje con el número sorteado e indicar si ganó o perdió:.
+                <p> 1)Confeccionar un programa que permita cargar un valor comprendido entre 1 y 10. Luego generar un
+                    valor aleatorio entre 1 y 10, mostrar un mensaje con el número sorteado e indicar si ganó o perdió:.
                 </p>
                 <button type="button" onclick="ejercicioMath()">Ejecutar </button>
             </div>
@@ -209,19 +212,25 @@
     <div id="claseArray" class="claseArray">
         <div class="teoriaArray">
             Crear el objeto Ayyay <br> let nombreVector = [];<br>
-            <br> Para cargar un Vector(teniendo en cuenta que arranca en 0)<br> nombreVector[0] = 134;<br> nombreVector[1] = 'un string';<br> nombreVector[2] = true || false;<br> nombreVector[3] = 'j'(un carater;)
+            <br> Para cargar un Vector(teniendo en cuenta que arranca en 0)<br> nombreVector[0] = 134;<br>
+            nombreVector[1] = 'un string';<br> nombreVector[2] = true || false;<br> nombreVector[3] = 'j'(un carater;)
             <br>
-            <br> Otra manera de asignarle valores es <br> nombreVector[] = {134, 'victor', 0.25, true};<br><br> para recorrer un vector se usa generalmente un ciclo 'for' <br>for (let i = 0; i
-            < nombreVector.length; i++{<br> console.log(nombreVector[i]);<br> //Aca adentro podemos: evaluar, comparar, cargar, operar, etc. }
+            <br> Otra manera de asignarle valores es <br> nombreVector[] = {134, 'victor', 0.25, true};<br><br> para
+            recorrer un vector se usa generalmente un ciclo 'for' <br>for (let i = 0; i
+            < nombreVector.length; i++{<br> console.log(nombreVector[i]);<br> //Aca adentro podemos: evaluar, comparar,
+                cargar, operar, etc. }
                 <br><br>
 
         </div>
         <div id="ArrayEjercicio" class="ArrayEjercicio">
             <p>
-                <h3>PRACTICA N° 1</h3>
+            <h3>PRACTICA N° 1</h3>
             </p>
-            <p>Desarrollar un programa que permita ingresar un vector de 8 elementos, e informe:<br> El valor acumulado de todos los elementos del vector.<br> El valor acumulado de los elementos del vector que sean mayores a 36.
-                <br> Cantidad de valores mayores a 50.</p>
+            <p>Desarrollar un programa que permita ingresar un vector de 8 elementos, e informe:<br> El valor acumulado
+                de todos los elementos del vector.<br> El valor acumulado de los elementos del vector que sean mayores a
+                36.
+                <br> Cantidad de valores mayores a 50.
+            </p>
             <br>
             <input type="radio" name="carga" value="carga">Manual</input>
             <input type="radio" name="carga" value="carga">automatica</input><br>
@@ -231,10 +240,13 @@
             <input type="text" id="respuesta2" class="dateResultado"></input><br>
             <input type="text" id="respuesta3" class="dateResultado"></input><br>
             <p>
-                <h3>PRACTICA N° 2</h3>
+            <h3>PRACTICA N° 2</h3>
             </p>
-            <p>Realizar un programa que pida la carga de dos vectores numéricos.<br> Obtener la suma de los dos vectores, dicho resultado guardarlo en un tercer vector del mismo tamaño.<br> Sumar componente a componente.
-                <br> El tamaño del vector es a elección.</p>
+            <p>Realizar un programa que pida la carga de dos vectores numéricos.<br> Obtener la suma de los dos
+                vectores, dicho resultado guardarlo en un tercer vector del mismo tamaño.<br> Sumar componente a
+                componente.
+                <br> El tamaño del vector es a elección.
+            </p>
             <button type="button" onclick="array2()">ejecutar</button><br>
             <p id="texto4"></p>
             <input type="text" id="txtrespuesta4" class="resArray2"></input><br>
@@ -254,19 +266,21 @@
 
     <div id="POO" class="poo">
         <p>
-            <h3>EJERCICIOS DE POO en JavaScript</h3>
+        <h3>EJERCICIOS DE POO en JavaScript</h3>
         </p>
         <p>
-            <h3>PRACTICA</h3>
+        <h3>PRACTICA</h3>
         </p>
-        <p>Confeccionar una clase llamada suma, que contenga dos atributos (valor1, valor2) y tres métodos: cargarvalor1, cargarvalor2 y retornarresultado. Implementar la clase suma. La definición de un objeto de la clase que deben plantear es:</p>
+        <p>Confeccionar una clase llamada suma, que contenga dos atributos (valor1, valor2) y tres métodos:
+            cargarvalor1, cargarvalor2 y retornarresultado. Implementar la clase suma. La definición de un objeto de la
+            clase que deben plantear es:</p>
         <p>var s=new suma();<br> s.primerValor(10);
             <br> s.segundoValor(20);
             <br> document.write('La suma de los dos valores es:'+s.retornarResultado());
         </p><br><br>
         <div>
             <p>
-                <h3>Resultado</h3>
+            <h3>Resultado</h3>
             </p>
             <label for="Numero1">Ingrese su primer valor</label><br>
             <input name="primerValor" type="number" class="poo" id="Numero1"></input><br>
@@ -295,15 +309,16 @@
     </div>
     <div id="screen">
         <p>
-            <h3>Propiedad screen del objeto window</h3>
+        <h3>Propiedad screen del objeto window</h3>
         </p>
         <div id="propScreen">
         </div>
         <div>
             <p>
-                <h3>PRACTICA</h3>
+            <h3>PRACTICA</h3>
             </p>
-            <p>Confeccionar un programa que al presionar un botón aparezca una ventana que ocupe todo el ancho del monitor y la mitad de su altura.</p>
+            <p>Confeccionar un programa que al presionar un botón aparezca una ventana que ocupe todo el ancho del
+                monitor y la mitad de su altura.</p>
             <input type="button" value="abrir ventana" onClick="ejecutarScreen()">
         </div>
         <div class="btnVolver">
@@ -341,114 +356,193 @@
     </div>
     <br>
     <div id="usoSelect">
-        <p>
+        <div class="ejercicio" style="padding: 15px;">
+            <p>
             <h3>SELECT</h3>
             <H3>EJEMPLO</H3>
-        </p>
-        <form>
-            <select id="select1" onChange="cambiarColor()">
-                <option value="ff0000">Rojo</option>
-                <option value="00ff00">Verde</option>
-                <option value="0000ff">Azul</option>
-            </select>
-            <br> Número de índice seleccionado del objeto SELECT:<input type="text" id="text1">
-            <br> Texto seleccionado:<input type="text" id="text2"><br>
-            <br> Valor asociado:<input type="text" id="text3"><br>
-        </form>
-        <div id="practicaSelect">
-            <p>
-                <h3>PRACTICA</h3>
             </p>
+
+            <table>
+                <tr>
+                    <td>
+                        <select id="select1" onChange="cambiarColor()">
+                            <option value="ff0000">Rojo</option>
+                            <option value="00ff00">Verde</option>
+                            <option value="0000ff">Azul</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Número de índice seleccionado del objeto SELECT:</td>
+                                <td><input type="text" id="text1"></td>
+                            </tr>
+                            <tr>
+                                <td>Texto seleccionado:</td>
+                                <td><input type="text" id="text2"></td>
+                            </tr>
+                            <tr>
+                                <td>Valor asociado:</td>
+                                <td><input type="text" id="text3"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
         </div>
+        <div id="practicaSelect">
+            <div class="ejercicio" style="padding: 15px;">
+                <p>
+                <h3>PRACTICA</h3>
+                </p>
+            </div>
+        </div>
+
         <div id="resolucionSelect">
-            <p>1) Confeccionar una página que muestre un objeto SELECT con distintos tipos de pizzas (Jamón y Queso, Muzzarella, Morrones). Al seleccionar una, mostrar en un objeto de tipo TEXT el precio de la misma.</p>
-            <form>
-                <select id="pizzas" onChange="precioPizza()">
-                    <option value="$1.000">Mozarella</option>
-                    <option value="$1.250">Fugaceta</option>
-                    <option value="$1.500">Cuatro Quesos</option>
-                </select>
-                <br> Precio de la Pizza:<input type="text" id="textPizzas"><br>
-            </form>
+            <div class="ejercicio" style="padding: 15px;">
+
+                <p>1) Confeccionar una página que muestre un objeto SELECT con distintos tipos de pizzas (Jamón y Queso,
+                    Muzzarella, Morrones). Al seleccionar una, mostrar en un objeto de tipo TEXT el precio de la misma.
+                </p>
+                <div class="ejercicio" style="padding: 15px;">
+
+                    <table>
+                        <tr>
+
+                            <select id="pizzas" onChange="precioPizza()">
+                                <option value="$1.000">Mozarella</option>
+                                <option value="$1.250">Fugaceta</option>
+                                <option value="$1.500">Cuatro Quesos</option>
+                            </select>
+                        </tr>
+                        <tr>
+
+                            </br> Precio de la Pizza:<input type="text" id="textPizzas"><br>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
         <div id="resolucionSelect2">
-            <p>2) Generar un presupuesto de un equipo de computación a partir de tres objetos de tipo SELECT que nos permiten seleccionar:</p>
-            <form id="presupuesto">
-                <select id="procesador" onChange="procesadorLista()">
-                    <option value="400">Intel I3</option>
-                    <option value="600">Intel I5</option>
-                    <option value="800">Intel I8</option>
-                </select>
-                <br> Precio de Lista<input type="text" class="opcion" id="precioProcesador"><br>
-                <select id="monitor" onChange="MonitoLista()">
-                    <option value="250">Samsung 20'</option>
-                    <option value="350">Samsung 22'</option>
-                    <option value="550">Samsung 26'</option>
-                </select>
-                <br> Precio de Lista<input type="text" class="opcion" id="precioMonitor"><br>
-                <select id="discoDuro" onChange="discoLista()">
-                    <option value="300">500 MB</option>
-                    <option value="440">1 Tb</option>
-                    <option value="500">3 Tb</option>
-                </select>
-                <br> Precio de Lista<input type="text" class="opcion" id="precioDisco"><br>
-                <button type="button" id="resultadoFinal" onclick="PrecioFinalPresupuesto()">TOTAL!!</button>
-                <br> Precio del presupuesto<input type="text" id="presTecnologico"><br>
-            </form>
+            <div class="ejercicio" style="padding: 15px;">
+
+                <p>2) Generar un presupuesto de un equipo de computación a partir de tres objetos de tipo SELECT que nos
+                    permiten seleccionar:</p>
+                <table id="presupuesto">
+                    <tr>
+
+                        <select id="procesador" onChange="procesadorLista()">
+                            <option value="400">Intel I3</option>
+                            <option value="600">Intel I5</option>
+                            <option value="800">Intel I8</option>
+                        </select>
+                        <br> Precio del Procesador<input type="text" class="opcion" id="precioProcesador"><br>
+                    </tr>
+                    <tr>
+
+                        <select id="monitor" onChange="MonitoLista()">
+                            <option value="250">Samsung 20'</option>
+                            <option value="350">Samsung 22'</option>
+                            <option value="550">Samsung 26'</option>
+                        </select>
+                        <br> Precio de Monitor <input type="text" class="opcion" id="precioMonitor"><br>
+                    </tr>
+                    <tr>
+
+                        <select id="discoDuro" onChange="discoLista()">
+                            <option value="300">500 MB</option>
+                            <option value="440">1 Tb</option>
+                            <option value="500">3 Tb</option>
+                        </select>
+                        <br> Precio del Disco Duro<input type="text" class="opcion" id="precioDisco"><br>
+                    </tr>
+                    <button type="button" id="resultadoFinal" onclick="PrecioFinalPresupuesto()">TOTAL!!</button>
+                    <tr>
+                        <br> Precio del presupuesto<input type="text" id="presTecnologico"><br>
+
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div id="resolucionSelect3">
-            <p>3) Confeccionar una página que permita seleccionar una pizza y la cantidad de unidades. Luego al presionar un botón calcular el importe a pagar. Utilizar un objeto de la clase SELECT para la selección de la pizza, pudiendo ser:</p>
-            <form>
-                <select id="pizzas2" onChange="precioPizza2()">
-                    <option value="1000">Mozarella</option>
-                    <option value="1250">Fugaceta</option>
-                    <option value="1500">Cuatro Quesos</option>
-                </select>
-                <br> Elija su Pizza:<input type="text" class="text" onkeyup="sumaProducto()" id="textPizzas2"><br>
-                <br> Precio parcial: <input type="text" class="text" onkeyup="sumaProducto()" id="textCantPorciones"><br>
-                <br> Cuantas porciones desea?: <input type="text" class="text" id="textPrecioParcial"></input><br>
-                <button type="button" id="agregarPedido" class="but" onclick="SumaSubtotal()">AGREGAR PEDIDO</button>
-                <br> SUBTOTAL: <input type="text" class="text" id="textSubTotal"><br>
-                <button type="button" id="total" class="but" onclick="sumaTotal()">TOTAL</button>
-                <br> IMPORTE TOTAL: <input type="text" class="text" id="textTotal"><br>
-            </form>
+            <div class="ejercicio" style="padding: 15px;">
+                <p>3) Confeccionar una página que permita seleccionar una pizza y la cantidad de unidades. Luego al
+                    presionar un botón calcular el importe a pagar. Utilizar un objeto de la clase SELECT para la
+                    selección
+                    de la pizza, pudiendo ser:</p>
+                <table>
+                    <tr>
+
+                        <select id="pizzas2" onChange="precioPizza2()">
+                            <option value="1000">Mozarella</option>
+                            <option value="1250">Fugaceta</option>
+                            <option value="1500">Cuatro Quesos</option>
+                        </select>
+                        <br> Precio de la Pizza:<input type="text" class="text" onkeyup="sumaProducto()"
+                            id="textPizzas2"><br>
+                    </tr>
+                    <br> Cuantas porciones desea?: <input type="text" class="text" onkeyup="sumaProducto()"
+                        id="textCantPorciones"><br>
+                    <br>Precio parcial: <input type="text" class="text" id="textPrecioParcial"></input><br>
+                    <button type="button" id="agregarPedido" class="but" onclick="SumaSubtotal()">AGREGAR
+                        PEDIDO</button>
+                    <br> SUBTOTAL: <input type="text" class="text" id="textSubTotal"><br>
+                    <button type="button" id="total" class="but" onclick="sumaTotal()">TOTAL</button>
+                    <br> IMPORTE TOTAL: <input type="text" class="text" id="textTotal"><br>
+                </table>
+            </div>
         </div>
 
         <div id="resolucionSelect4">
-            <p>Confeccionar una página que permita tomar un examen múltiple choice. Se debe mostrar una pregunta y seguidamente un objeto SELECT con las respuestas posibles. Al presionar un botón mostrar la cantidad de respuestas correctas e incorrectas
-                (Disponer 4 preguntas y sus respectivos controles SELECT)</p>
-            <form name="cuestionario">
-                <P>¿Cómo se crea una base de datos con SQL?</P><br>
-                <inPut type="radio" name="PrimerPregunta">CREATE DATABASE</inPut><br>
-                <inPut type="radio" name="PrimerPregunta">UPDATE DATABASE.</inPut><br>
-                <inPut type="radio" name="PrimerPregunta">ALTER DATABASE.</inPut><br>
-                <inPut type="radio" name="PrimerPregunta">Las anteriores respuestas no son correctas</inPut><br><br>
-                <P>En SQL, para modificar la estructura de una tabla <br> de una base de datos se emplea la instrucción
-                </P><br>
-                <inPut type="radio" name="segundaPregunta">ALTER TABLE</inPut><br>
-                <inPut type="radio" name="segundaPregunta">CHANGE TABLE.</inPut><br>
-                <inPut type="radio" name="segundaPregunta">MODIFY TABLE.</inPut><br>
-                <inPut type="radio" name="segundaPregunta">Las anteriores respuestas no son correctas.</inPut><br><br>
-                <P>¿Qué instrucción se emplea para eliminar toda una tabla?</P><br>
-                <inPut type="radio" name="tercerPregunta">DELETE TABLE</inPut><br>
-                <inPut type="radio" name="tercerPregunta">TRUNCATE TABLE.</inPut><br>
-                <inPut type="radio" name="tercerPregunta">ALTER DATABASE.</inPut><br>
-                <inPut type="radio" name="tercerPregunta">DROP TABLE.</inPut><br><br>
-                <P>En SQL, para ordenar los datos devueltos por una sentencia SELECT se emplea la cláusula</P><br>
-                <inPut type="radio" name="cuartapregunta">ORDER BY</inPut><br>
-                <inPut type="radio" name="cuartapregunta">ORDERED BY.</inPut><br>
-                <inPut type="radio" name="cuartapregunta">SORT BY.</inPut><br>
-                <inPut type="radio" name="cuartapregunta">SORTED BY.</inPut><br><br>
-                <P>¿Cuál de las siguientes NO es una función de agregación?</P><br>
-                <inPut type="radio" name="quintaPregunta">COUNT()</inPut><br>
-                <inPut type="radio" name="quintaPregunta">LIMIT()</inPut><br>
-                <inPut type="radio" name="quintaPregunta">MAX()</inPut><br>
-                <inPut type="radio" name="quintaPregunta">MIN()</inPut><br><br>
-                <button type="button" onclick="verificarRespuesta()">VERIFICAR RESPUESTAS</button>
-            </form>
-            <div class="btnVolver">
-                <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+            <div class="ejercicio">
+
+
+                <p>4) Confeccionar una página que permita tomar un exámen múltiple choice. Se debe mostrar una pregunta
+                    y
+                    seguidamente un objeto SELECT con las respuestas posibles. Al presionar un botón mostrar la cantidad
+                    de respuestas correctas e incorrectas (Disponer 4 preguntas y sus respectivos controles SELECT)</p>
+                <form name="cuestionario">
+                    <P>¿Cómo se crea una base de datos con SQL?</P><br>
+                    <inPut type="radio" name="PrimerPregunta">CREATE DATABASE</inPut><br>
+                    <inPut type="radio" name="PrimerPregunta">UPDATE DATABASE.</inPut><br>
+                    <inPut type="radio" name="PrimerPregunta">ALTER DATABASE.</inPut><br>
+                    <inPut type="radio" name="PrimerPregunta">Las anteriores respuestas no son correctas</inPut><br><br>
+                    <P>En SQL, para modificar la estructura de una tabla <br> de una base de datos se emplea la
+                        instrucción
+                    </P><br>
+                    <inPut type="radio" name="segundaPregunta">ALTER TABLE</inPut><br>
+                    <inPut type="radio" name="segundaPregunta">CHANGE TABLE.</inPut><br>
+                    <inPut type="radio" name="segundaPregunta">MODIFY TABLE.</inPut><br>
+                    <inPut type="radio" name="segundaPregunta">Las anteriores respuestas no son
+                    correctas.</inPut><br><br>
+                    <P>¿Qué instrucción se emplea para eliminar toda una tabla?</P><br>
+                    <inPut type="radio" name="tercerPregunta">DELETE TABLE</inPut><br>
+                    <inPut type="radio" name="tercerPregunta">TRUNCATE TABLE.</inPut><br>
+                    <inPut type="radio" name="tercerPregunta">ALTER DATABASE.</inPut><br>
+                    <inPut type="radio" name="tercerPregunta">DROP TABLE.</inPut><br><br>
+                    <P>En SQL, para ordenar los datos devueltos por una sentencia SELECT se emplea la cláusula</P><br>
+                    <inPut type="radio" name="cuartapregunta">ORDER BY</inPut><br>
+                    <inPut type="radio" name="cuartapregunta">ORDERED BY.</inPut><br>
+                    <inPut type="radio" name="cuartapregunta">SORT BY.</inPut><br>
+                    <inPut type="radio" name="cuartapregunta">SORTED BY.</inPut><br><br>
+                    <P>¿Cuál de las siguientes NO es una función de agregación?</P><br>
+                    <inPut type="radio" name="quintaPregunta">COUNT()</inPut><br>
+                    <inPut type="radio" name="quintaPregunta">LIMIT()</inPut><br>
+                    <inPut type="radio" name="quintaPregunta">MAX()</inPut><br>
+                    <inPut type="radio" name="quintaPregunta">MIN()</inPut><br><br>
+                </form>
+                <div class="center-button">
+
+                    <button type="button" class="custom-button" onclick="verificarRespuesta()">VERIFICAR
+                        RESPUESTAS</button>
+                </div>
+                <div class="btnVolver">
+                    <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
+                </div>
             </div>
         </div>
     </div>
@@ -465,15 +559,20 @@
         </div>
     </div>
     <div id="fromButonText">
+
+
+
         <p>
-            <h3>PRACTICA</h3>
+        <h3>PRACTICA</h3>
         </p>
         <div id="enunciado1">
-            <p>1) Crear un programa que permita cargar un entero en un text y al presionar un botón nos muestre dicho valor elevado al cubo (emplear la función alert).</p>
+            <p>1) Crear un programa que permita cargar un entero en un text y al presionar un botón nos muestre dicho
+                valor elevado al cubo (emplear la función alert).</p>
         </div>
         <input type="text" id="numeroAlCubo" class='mostrarNavigator' placeholder="Numero al cubo">
         <br>
         <button type="button" onClick="numeroAlCubo1()">Ejecutar Número al Cubo</button>
+        <br>
         <input type="text" id="numeroAlCuboRespuesta" class='mostrarNavigator' placeholder="Respesta Numero al cubo">
         <br><br><br>
         <div id="enunciado2">
@@ -487,8 +586,11 @@
         <br><br>
         <input type="text" id="numeroresultado" class='mostrarNavigator' placeholder=" mayor">
         <br><br><br>
+
         <div id="enunciado3">
-            <p>3) Cargar un nombre y un apellido en sendos text. Al presionar un botón, concatenarlos y mostrarlos en un tercer text (Tener en cuenta que podemos modificar la propiedad value de un objeto TEXT cuando ocurre un evento).
+            <p>3) Cargar un nombre y un apellido en sendos text. Al presionar un botón, concatenarlos y mostrarlos en un
+                tercer text (Tener en cuenta que podemos modificar la propiedad value de un objeto TEXT cuando ocurre un
+                evento).
             </p>
         </div>
         <input type="text" id="nombre" class='mostrarNavigator' placeholder="nombre">
@@ -502,13 +604,16 @@
         <div class="btnVolver">
             <button type="button" class="volverAMenu" onclick="volverAMenu()">VOLVER AL MENU</button>
         </div>
+
     </div>
     <div id="claseString">
         <p>
-            <h3>PRACTICA</h3>
+        <h3>PRACTICA</h3>
         </p>
         <div id="Ejer1String">
-            <p>1) Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una
+            <p>1) Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A
+                partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas,
+                sólo por minúsculas o por una
                 mezcla de amba</p>
             <input type="text" id="entradaString1" class='mostrarNavigator'></input>
             <button type="button" onclick="claseString1()">EJECUTAR</button>
@@ -516,7 +621,9 @@
             <br><br>
         </div>
         <div id="Ejer2String">
-            <p>2) Hacer un script que rompa un string en dos mitades y las imprima por pantalla. Las mitades serán iguales, siempre que el string tenga un número de caracteres par. En caso de que el número de caracteres sea impar no se podrá hacer la mitad
+            <p>2) Hacer un script que rompa un string en dos mitades y las imprima por pantalla. Las mitades serán
+                iguales, siempre que el string tenga un número de caracteres par. En caso de que el número de caracteres
+                sea impar no se podrá hacer la mitad
                 exacta, pero partiremos el string lo más aproximado a la mitad.</p>
             <input type="text" id="entradaString2" class='mostrarNavigator'></input>
             <button type="button" onclick="claseString2()">EJECUTAR</button>
@@ -528,15 +635,18 @@
     </div>
     <div id="divRadio">
         <p>
-            <h3>Control RADIO</h3>
+        <h3>Control RADIO</h3>
         </p>
-        <p>Los objetos RADIO tienen sentido cuando disponemos varios elementos.<br> Sólo uno puede estar seleccionado del conjunto.</p>
-        <p>Es importante notar que todos los objetos de tipo RADIO tienen definida<br> la propiedad name con el mismo valor (esto permite especificar que queremos que los radios estén relacionados entre si)</p>
+        <p>Los objetos RADIO tienen sentido cuando disponemos varios elementos.<br> Sólo uno puede estar seleccionado
+            del conjunto.</p>
+        <p>Es importante notar que todos los objetos de tipo RADIO tienen definida<br> la propiedad name con el mismo
+            valor (esto permite especificar que queremos que los radios estén relacionados entre si)</p>
         <div id="practicaRadio">
             <p>
-                <h3>PRACTICA</h3>
+            <h3>PRACTICA</h3>
             </p>
-            <p>1) Confeccionar una página que muestre dos objetos de la clase RADIO solicitando que seleccione si es mayor de 18 años o no. Al presionar un botón mostrar un alert indicando si puede ingresar al sitio o no.
+            <p>1) Confeccionar una página que muestre dos objetos de la clase RADIO solicitando que seleccione si es
+                mayor de 18 años o no. Al presionar un botón mostrar un alert indicando si puede ingresar al sitio o no.
             </p>
             <br>
             <p>Conteste la encuesta</p>

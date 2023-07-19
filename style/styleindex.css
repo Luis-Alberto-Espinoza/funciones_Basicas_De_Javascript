@@ -15,6 +15,9 @@ form {
     grid-template-columns: repeat(2, 1fr);
     border: solid 1px;
 }
+.recuadroPrincipal{
+    padding: 25px;
+}
 
 #MostrarDate,
 #divMath,
@@ -106,6 +109,18 @@ tr:hover {
 .mostrarNavigator {
     margin-left: 15%;
     background-color: antiquewhite;
-    width: 800px;
+    width: 300px;
     padding: 15px;
 }
+.ejercicio{
+    padding: 12px;
+}
+button{
+    font-size: 14px;
+    padding: 10px;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
