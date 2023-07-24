@@ -1,5 +1,7 @@
 # Ejercicio Introductorio y Descriptivo de HTML, CSS y JavaScript Básico
 
+Para acceder a la página web, puedes hacerlo desde este [enlace](https://luis-alberto-espinoza.github.io/funciones_Basicas_De_Javascript/).
+
 ## Descripción
 
 Este proyecto es parte de una actividad realizada durante mi primer año en el terciario, y tiene como objetivo mostrar diferentes funciones básicas de HTML, CSS y JavaScript. Está diseñado para principiantes y público en general interesado en dar los primeros pasos en el mundo web.
@@ -35,5 +37,3 @@ Espero que este proyecto brinde a los usuarios una introducción práctica y ami
 Este proyecto representa mi primer acercamiento al mundo web. Fue creado con entusiasmo y dedicación, ya que marca el inicio de mi camino en el desarrollo web. Tengo muchas ganas de remasterizar este proyecto y seguir completándolo con más funciones básicas de JavaScript para ofrecer un contenido más amplio y valioso.
 
 ¡Gracias por explorar este proyecto y espero que disfrutes aprendiendo sobre HTML, CSS y JavaScript junto a mí! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
-
-Para acceder a la página web, puedes hacerlo desde este [enlace](https://luis-alberto-espinoza.github.io/funciones_Basicas_De_Javascript/).

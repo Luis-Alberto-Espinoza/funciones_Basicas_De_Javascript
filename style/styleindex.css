@@ -123,4 +123,12 @@ button{
     display: flex;
     justify-content: center;
 }
+.iconos {
+    height: 35px;
+    padding: 15px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
 
